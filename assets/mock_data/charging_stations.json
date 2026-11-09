@@ -1,0 +1,184 @@
+[
+  {
+    "stationId": "st-001", "name": "One Galle Face Mall EV Hub", "address": "1A Centre Road, Galle Face, Colombo 02", "city": "Colombo",
+    "latitude": 6.9271, "longitude": 79.8450, "operatorName": "ChargeNET", "network": "ChargeNET",
+    "openingHours": "24 hours", "contactNumber": "+94 11 234 5678", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-04",
+    "rating": 4.6, "reviewCount": 128, "amenities": ["Restrooms", "Food Court", "Shopping", "WiFi"],
+    "chargingPoints": [
+      {"id": "cp-001a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 120},
+      {"id": "cp-001b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "IN_USE", "pricePerKwh": 120},
+      {"id": "cp-001c", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 85}
+    ]
+  },
+  {
+    "stationId": "st-002", "name": "Colombo City Centre Charging", "address": "137 Sir James Peiris Mawatha, Colombo 02", "city": "Colombo",
+    "latitude": 6.9177, "longitude": 79.8553, "operatorName": "Vega Innovations", "network": "ChargeNET",
+    "openingHours": "08:00 – 22:00", "contactNumber": "+94 11 245 1100", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-02",
+    "rating": 4.4, "reviewCount": 86, "amenities": ["Restrooms", "Cinema", "Restaurants"],
+    "chargingPoints": [
+      {"id": "cp-002a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 120, "status": "AVAILABLE", "pricePerKwh": 130},
+      {"id": "cp-002b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 7.4, "status": "AVAILABLE", "pricePerKwh": 75}
+    ]
+  },
+  {
+    "stationId": "st-003", "name": "Havelock City Super Charger", "address": "324 Havelock Road, Colombo 05", "city": "Colombo",
+    "latitude": 6.8868, "longitude": 79.8655, "operatorName": "ChargeNET", "network": "ChargeNET",
+    "openingHours": "24 hours", "contactNumber": "+94 11 255 9090", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-05",
+    "rating": 4.8, "reviewCount": 203, "amenities": ["Supermarket", "Coffee", "Restrooms", "Parking"],
+    "chargingPoints": [
+      {"id": "cp-003a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 150, "status": "AVAILABLE", "pricePerKwh": 140},
+      {"id": "cp-003b", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 150, "status": "IN_USE", "pricePerKwh": 140},
+      {"id": "cp-003c", "connectorType": "GB/T", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 125}
+    ]
+  },
+  {
+    "stationId": "st-004", "name": "CEB Charging Point – Nugegoda", "address": "High Level Road, Nugegoda", "city": "Nugegoda",
+    "latitude": 6.8722, "longitude": 79.8889, "operatorName": "Ceylon Electricity Board", "network": "CEB",
+    "openingHours": "06:00 – 22:00", "contactNumber": "1987", "reportedStatus": "ISSUES_REPORTED", "lastVerifiedDate": "2026-10-28",
+    "rating": 3.7, "reviewCount": 41, "amenities": ["Parking", "Bakery"],
+    "chargingPoints": [
+      {"id": "cp-004a", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "OUT_OF_SERVICE", "pricePerKwh": 100},
+      {"id": "cp-004b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 70}
+    ]
+  },
+  {
+    "stationId": "st-005", "name": "Rajagiriya Express Charge", "address": "Sri Jayawardenepura Mawatha, Rajagiriya", "city": "Rajagiriya",
+    "latitude": 6.9094, "longitude": 79.8946, "operatorName": "LECO", "network": "LECO",
+    "openingHours": "24 hours", "contactNumber": "+94 11 283 3333", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-01",
+    "rating": 4.2, "reviewCount": 57, "amenities": ["Coffee", "Convenience Store"],
+    "chargingPoints": [
+      {"id": "cp-005a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 115},
+      {"id": "cp-005b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 115}
+    ]
+  },
+  {
+    "stationId": "st-006", "name": "Mount Lavinia Hotel EV Bay", "address": "100 Hotel Road, Mount Lavinia", "city": "Mount Lavinia",
+    "latitude": 6.8296, "longitude": 79.8630, "operatorName": "Mount Lavinia Hotel", "network": "Private",
+    "openingHours": "24 hours", "contactNumber": "+94 11 271 1711", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-10-20",
+    "rating": 4.5, "reviewCount": 33, "amenities": ["Restaurant", "Beach", "Restrooms"],
+    "chargingPoints": [
+      {"id": "cp-006a", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 90},
+      {"id": "cp-006b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 90}
+    ]
+  },
+  {
+    "stationId": "st-007", "name": "Negombo Beach Road Charging", "address": "Lewis Place, Negombo", "city": "Negombo",
+    "latitude": 7.2226, "longitude": 79.8418, "operatorName": "ChargeNET", "network": "ChargeNET",
+    "openingHours": "24 hours", "contactNumber": "+94 31 222 4455", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-03",
+    "rating": 4.3, "reviewCount": 64, "amenities": ["Restaurants", "Beach", "Coffee"],
+    "chargingPoints": [
+      {"id": "cp-007a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 120},
+      {"id": "cp-007b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 120}
+    ]
+  },
+  {
+    "stationId": "st-008", "name": "BIA Airport Car Park Chargers", "address": "Bandaranaike International Airport, Katunayake", "city": "Katunayake",
+    "latitude": 7.1747, "longitude": 79.8842, "operatorName": "Airport & Aviation Services", "network": "Private",
+    "openingHours": "24 hours", "contactNumber": "+94 11 225 2861", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-10-30",
+    "rating": 4.0, "reviewCount": 29, "amenities": ["Restrooms", "Food Court", "Parking"],
+    "chargingPoints": [
+      {"id": "cp-008a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "IN_USE", "pricePerKwh": 135},
+      {"id": "cp-008b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 11, "status": "AVAILABLE", "pricePerKwh": 90}
+    ]
+  },
+  {
+    "stationId": "st-009", "name": "Kandy City Centre EV Point", "address": "5 Dalada Veediya, Kandy", "city": "Kandy",
+    "latitude": 7.2929, "longitude": 80.6355, "operatorName": "ChargeNET", "network": "ChargeNET",
+    "openingHours": "08:00 – 21:00", "contactNumber": "+94 81 220 3030", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-02",
+    "rating": 4.4, "reviewCount": 72, "amenities": ["Shopping", "Food Court", "Temple of the Tooth nearby"],
+    "chargingPoints": [
+      {"id": "cp-009a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 120},
+      {"id": "cp-009b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "IN_USE", "pricePerKwh": 120},
+      {"id": "cp-009c", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 85}
+    ]
+  },
+  {
+    "stationId": "st-010", "name": "Peradeniya Road Fast Charger", "address": "Peradeniya Road, Kandy", "city": "Kandy",
+    "latitude": 7.2756, "longitude": 80.6150, "operatorName": "Ceylon Electricity Board", "network": "CEB",
+    "openingHours": "24 hours", "contactNumber": "1987", "reportedStatus": "UNKNOWN", "lastVerifiedDate": "2026-09-15",
+    "rating": 3.9, "reviewCount": 18, "amenities": ["Parking", "Botanical Gardens nearby"],
+    "chargingPoints": [
+      {"id": "cp-010a", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "UNKNOWN", "pricePerKwh": 100}
+    ]
+  },
+  {
+    "stationId": "st-011", "name": "Galle Fort Charging Station", "address": "Church Street, Galle Fort", "city": "Galle",
+    "latitude": 6.0270, "longitude": 80.2168, "operatorName": "ChargeNET", "network": "ChargeNET",
+    "openingHours": "24 hours", "contactNumber": "+94 91 223 4567", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-04",
+    "rating": 4.7, "reviewCount": 95, "amenities": ["Cafés", "Museums", "Historic Fort", "Restrooms"],
+    "chargingPoints": [
+      {"id": "cp-011a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 120},
+      {"id": "cp-011b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 85}
+    ]
+  },
+  {
+    "stationId": "st-012", "name": "Southern Expressway – Welipenna Service Area", "address": "E01 Southern Expressway, Welipenna", "city": "Welipenna",
+    "latitude": 6.4646, "longitude": 80.1086, "operatorName": "Road Development Authority", "network": "Expressway",
+    "openingHours": "24 hours", "contactNumber": "1969", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-05",
+    "rating": 4.1, "reviewCount": 140, "amenities": ["Restrooms", "Food Court", "Convenience Store"],
+    "chargingPoints": [
+      {"id": "cp-012a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 120, "status": "AVAILABLE", "pricePerKwh": 130},
+      {"id": "cp-012b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 125},
+      {"id": "cp-012c", "connectorType": "GB/T", "chargingType": "DC", "powerKw": 60, "status": "IN_USE", "pricePerKwh": 125}
+    ]
+  },
+  {
+    "stationId": "st-013", "name": "Southern Expressway – Kurundugahahetekma Service Area", "address": "E01 Southern Expressway, Kurundugahahetekma", "city": "Elpitiya",
+    "latitude": 6.2700, "longitude": 80.1650, "operatorName": "Road Development Authority", "network": "Expressway",
+    "openingHours": "24 hours", "contactNumber": "1969", "reportedStatus": "ISSUES_REPORTED", "lastVerifiedDate": "2026-10-25",
+    "rating": 3.5, "reviewCount": 52, "amenities": ["Restrooms", "Food Court"],
+    "chargingPoints": [
+      {"id": "cp-013a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "OUT_OF_SERVICE", "pricePerKwh": 125},
+      {"id": "cp-013b", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 125}
+    ]
+  },
+  {
+    "stationId": "st-014", "name": "Kurunegala Town EV Charger", "address": "Colombo Road, Kurunegala", "city": "Kurunegala",
+    "latitude": 7.4818, "longitude": 80.3609, "operatorName": "Ceylon Electricity Board", "network": "CEB",
+    "openingHours": "06:00 – 22:00", "contactNumber": "1987", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-10-31",
+    "rating": 4.0, "reviewCount": 22, "amenities": ["Restaurants", "Supermarket"],
+    "chargingPoints": [
+      {"id": "cp-014a", "connectorType": "CHAdeMO", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 100},
+      {"id": "cp-014b", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 100}
+    ]
+  },
+  {
+    "stationId": "st-015", "name": "Nuwara Eliya Grand Charge", "address": "Grand Hotel Road, Nuwara Eliya", "city": "Nuwara Eliya",
+    "latitude": 6.9697, "longitude": 80.7672, "operatorName": "Private Hotel Network", "network": "Private",
+    "openingHours": "24 hours", "contactNumber": "+94 52 222 2881", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-10-18",
+    "rating": 4.6, "reviewCount": 37, "amenities": ["Restaurant", "Gardens", "Tea Tasting nearby"],
+    "chargingPoints": [
+      {"id": "cp-015a", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 95},
+      {"id": "cp-015b", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 50, "status": "AVAILABLE", "pricePerKwh": 135}
+    ]
+  },
+  {
+    "stationId": "st-016", "name": "Dehiwala Keells Super Charging", "address": "Galle Road, Dehiwala", "city": "Dehiwala",
+    "latitude": 6.8511, "longitude": 79.8655, "operatorName": "Vega Innovations", "network": "ChargeNET",
+    "openingHours": "07:00 – 23:00", "contactNumber": "+94 11 273 8800", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-05",
+    "rating": 4.3, "reviewCount": 48, "amenities": ["Supermarket", "Pharmacy", "Coffee"],
+    "chargingPoints": [
+      {"id": "cp-016a", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 7.4, "status": "AVAILABLE", "pricePerKwh": 75},
+      {"id": "cp-016b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 7.4, "status": "IN_USE", "pricePerKwh": 75}
+    ]
+  },
+  {
+    "stationId": "st-017", "name": "Battaramulla Waters Edge Charger", "address": "316 Ethul Kotte Road, Battaramulla", "city": "Battaramulla",
+    "latitude": 6.9000, "longitude": 79.9100, "operatorName": "LECO", "network": "LECO",
+    "openingHours": "24 hours", "contactNumber": "+94 11 286 3863", "reportedStatus": "OPERATIONAL", "lastVerifiedDate": "2026-11-03",
+    "rating": 4.5, "reviewCount": 61, "amenities": ["Park", "Restaurants", "Walking Track"],
+    "chargingPoints": [
+      {"id": "cp-017a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "AVAILABLE", "pricePerKwh": 115},
+      {"id": "cp-017b", "connectorType": "Type 2", "chargingType": "AC", "powerKw": 22, "status": "AVAILABLE", "pricePerKwh": 80}
+    ]
+  },
+  {
+    "stationId": "st-018", "name": "Outer Circular Highway – Kadawatha Interchange", "address": "E03 Kadawatha Interchange, Kadawatha", "city": "Kadawatha",
+    "latitude": 7.0035, "longitude": 79.9561, "operatorName": "Road Development Authority", "network": "Expressway",
+    "openingHours": "24 hours", "contactNumber": "1969", "reportedStatus": "OFFLINE", "lastVerifiedDate": "2026-10-12",
+    "rating": 3.2, "reviewCount": 19, "amenities": ["Restrooms"],
+    "chargingPoints": [
+      {"id": "cp-018a", "connectorType": "CCS2", "chargingType": "DC", "powerKw": 60, "status": "OUT_OF_SERVICE", "pricePerKwh": 125}
+    ]
+  }
+]
